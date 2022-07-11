@@ -1,8 +1,8 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv(r'C:\Users\petr\my_env\.env')
-password = os.getenv('EMAIL_YA_PASS')
+#load_dotenv(r'C:\Users\petr\my_env\.env')
+#password = os.getenv('EMAIL_YA_PASS')
 
 class Config:
     SQLALCHEMY_DATABASE_URI = 'sqlite:///site.db'
@@ -13,4 +13,4 @@ class Config:
     MAIL_USE_TLS = False
     MAIL_USE_SSL = True
     MAIL_USERNAME = "pontiaciv@yandex.ru"
-    MAIL_PASSWORD = password
+    MAIL_PASSWORD = '123'
